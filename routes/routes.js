@@ -1,7 +1,7 @@
 import express from "express";
 
 // Import School Controller
-import { //importramos todos los Controller que tenemos 
+import { //importramos todos los Controller que tenemos d
     getSchools,
     getSchoolById,
     createSchool,
