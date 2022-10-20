@@ -6,10 +6,10 @@ const db = new Sequelize(
     "alcap1990", { // Contraseña de Usuario Postgres
     host: "localhost", // Host de la base de datos en este caso es local
     dialect: 'postgres', // Tipo de base de datos
-    logging: false,// Para que no muestre los logs de las consultas
+    logging: false,// Para que no muestre los logs de las consultas (opcional) muy largo en bash
     port: 5432, // Puerto de la base de datos en este caso es el 5432 por defecto de postgres
     define: {
-        timestamps: false //** */
+        timestamps: false // Para que no se cree la columna createdAt y updatedAt creadas por defecto por sequelize
     }
 });
 
