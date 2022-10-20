@@ -13,4 +13,4 @@ const db = new Sequelize(
     }
 });
 
-export default db; // Exportamos la conexion para poder usarla en otros archivos
+export default db; // Exportamos la conexion para poder usarla en otros archivos .
