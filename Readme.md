@@ -17,3 +17,5 @@ https://www.notion.so/larnu/express-sequalize-postgres-5d24e43dd31c4b8385472f820
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#examples_of_access_control_scenarios
  # express_crud
+# Express2
+# Express2
