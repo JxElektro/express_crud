@@ -1,6 +1,7 @@
 # express crud
 
-Proyecto de prueba para comenzar a utilizar express + postgresql + sequelize..
+Proyecto de prueba para comenzar a utilizar express + postgresql + sequelize...
+
 
 Desafio:
 1)Leer y aprender a usar este codigo;
