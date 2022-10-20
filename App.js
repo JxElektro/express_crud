@@ -25,7 +25,8 @@ try {
     console.error('Unable to connect to the database:', error);
 }
 
-// use router
+
+// use router integra todo los controllers enpoints
 app.use(Router);
 
 app.listen(4000, () => console.log('Servidor corriendo en localhost:4000...'))

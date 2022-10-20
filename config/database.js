@@ -1,4 +1,4 @@
-import { Sequelize } from "sequelize"; 
+import { Sequelize } from "sequelize";
 
 const db = new Sequelize(
     "Crud", // Nombre de Base De datos a la que apuntamos en Postgres

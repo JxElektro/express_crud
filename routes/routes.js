@@ -7,11 +7,11 @@ import { //importramos todos los Controller que tenemos
     createSchool,
     updateSchool,
     deleteSchool
- } from "../controllers/schools.js";
+} from "../controllers/schools.js";
 
- const router = express.Router();
+const router = express.Router();
 
- // Route get all schools
+// Route get all schools
 router.get('/schools', getSchools);
 // Route get product by id
 router.get('/schools/:id', getSchoolById);
@@ -21,6 +21,6 @@ router.post('/schools', createSchool);
 router.put('/schools/:id', updateSchool);
 // Route delete product by id
 router.delete('/schools/:id', deleteSchool);
- 
+
 // export router
 export default router;

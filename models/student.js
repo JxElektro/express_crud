@@ -2,10 +2,10 @@ import { Sequelize } from "sequelize";
 // import connection 
 import db from "../config/database.js";
 import School from "./school.js";
- 
+
 // init DataTypes
 const { DataTypes } = Sequelize;
- 
+
 // Define schema
 const Student = db.define('student', {
   // Define attributes
@@ -33,9 +33,9 @@ const Student = db.define('student', {
     defaultValue: Sequelize.NOW,
     field: 'created_on'
   }
-},{
+}, {
   tableName: 'student'
 });
- 
+
 // Export model Student
 export default Student;
