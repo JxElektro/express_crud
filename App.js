@@ -6,6 +6,9 @@ import cors from "cors";
 import db from "./config/database.js";
 // Import router
 import Router from "./routes/routes.js";
+
+// Import auth router
+import authRouter from "./routes/auth.js";
 // Init express
 const app = express(); 
 // use express json
@@ -28,5 +31,7 @@ try {
 
 // use router integra todo los controllers enpoints
 app.use(Router);
+
+app.use("/auth", authRouter);
 
 app.listen(4000, () => console.log('Servidor corriendo en localhost:4000...'))

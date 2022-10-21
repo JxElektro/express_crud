@@ -9,6 +9,9 @@ import { //importramos todos los Controller que tenemos d
     deleteSchool
 } from "../controllers/schools.js";
 
+import { isUserAuthenticated } from "../middlewares/auth.js";
+
+// Init express router
 const router = express.Router();
 
 // Route get all schools
