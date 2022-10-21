@@ -32,6 +32,6 @@ try {
 // use router integra todo los controllers enpoints
 app.use(Router);
 
-app.use("/auth", authRouter);
+app.use(authRouter);
 
 app.listen(4000, () => console.log('Servidor corriendo en localhost:4000...'))

@@ -15,15 +15,15 @@ import { isUserAuthenticated } from "../middlewares/auth.js";
 const router = express.Router();
 
 // Route get all schools
-router.get('/schools', getSchools);
+router.get('/schools',[isUserAuthenticated], getSchools);
 // Route get product by id
-router.get('/schools/:id', getSchoolById);
+router.get('/schools/:id',[isUserAuthenticated], getSchoolById);
 // Route create a new p
-router.post('/schools', createSchool);
+router.post('/schools',[isUserAuthenticated], createSchool);
 // Route update product by id
-router.put('/schools/:id', updateSchool);
+router.put('/schools/:id',[isUserAuthenticated], updateSchool);
 // Route delete product by id
-router.delete('/schools/:id', deleteSchool);
+router.delete('/schools/:id',[isUserAuthenticated], deleteSchool);
 
 // export router
 export default router;
